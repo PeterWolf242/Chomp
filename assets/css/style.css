@@ -197,6 +197,7 @@ main h3 {
 }
 
 footer {
+  flex-direction: column;
   background-color: var(--color_black_second);
 }
 
@@ -205,6 +206,7 @@ footer {
 }
 
 footer p {
+  justify-content: center;
   color: var(--color_white);
   margin-top: 16px;
 }

@@ -1,0 +1,187 @@
+@media screen and (max-width: 600px) {
+  .half_box {
+    display: none;
+  }
+}
+
+@media screen and ((min-width: 601px) and (max-width: 900px)) {
+  .header_mobile {
+    padding: 0;
+  }
+
+  .half_box {
+    display: none;
+  }
+
+  .order_box {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .order_box div {
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 0;
+    width: 100vw;
+    gap: 16px;
+    margin-bottom: 0;
+    padding: 16px 60px;
+  }
+
+  .order_box p {
+    text-align: left;
+  }
+
+  .dog_food .min_pic_box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .dog_food .min_pic_box .min_pic {
+    width: 50%;
+    height: 250px;
+  }
+
+  .dog_food .min_pic_box p {
+    order: 4;
+  }
+}
+
+@media screen and ((min-width: 901px) and (max-width: 1200px)) {
+  header {
+    background: none;
+  }
+
+  .header_mobile h1 {
+    display: none;
+  }
+
+  .large_bg {
+    display: flex;
+    width: 50vw;
+    min-height: 100vh;
+    background: url('../img/dog_bg.png') no-repeat;
+    background-size: cover;
+  }
+
+  main h3 {
+    background-color: var(--color_white);
+    color: var(--color_creme_red);
+    font-size: 40px;
+    padding: 24px 0;
+  }
+
+  .order_box {
+    flex-direction: row;
+    gap: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .order_box div {
+    padding: 16px 24px;
+    width: 217px;
+    height: 201px;
+    flex: 1 0 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .dog_food {
+    padding: 16px;
+    justify-content: space-evenly;
+  }
+
+  .dog_food,
+  .dog_food .min_pic_box {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dog_food .min_pic,
+  .dog_food p {
+    width: 33.3%;
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .dog_food p {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--color_creme_red);
+    color: var(--color_white);
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .header_mobile {
+    padding: 0;
+  }
+
+  .header_mobile h2 {
+    background-color: var(--color_white);
+  }
+
+  .header_mobile h1 {
+    display: none;
+  }
+
+  .large_bg {
+    display: flex;
+    width: 50vw;
+    min-height: 100vh;
+    background: url(../img/dog_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  main h3 {
+    background-color: var(--color_white);
+    color: var(--color_creme_red);
+    font-size: 40px;
+    padding: 24px 0;
+  }
+
+  .order_box {
+    flex-direction: row;
+    gap: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .order_box div {
+    padding: 16px 24px;
+    width: 217px;
+    height: 201px;
+    flex: 1 0 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .dog_food {
+    padding: 16px;
+    justify-content: space-evenly;
+  }
+
+  .dog_food,
+  .dog_food .min_pic_box {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dog_food .min_pic,
+  .dog_food p {
+    width: 33.3%;
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .dog_food p {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--color_creme_red);
+    color: var(--color_white);
+  }
+}
